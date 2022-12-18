@@ -9,7 +9,7 @@ import Subscribe from './components/Subscribe';
 function App() {
   return (
     <div>
-        <Navbar />
+        {/* <Navbar /> */}
         <Hero />
         <About />
         <Developers />
