@@ -2,7 +2,7 @@ import Background from '../assets/bg.jpg'
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
-import { ChevronRightIcon } from '@heroicons/react/solid'
+import Logo from '../assets/logo.png'
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -25,8 +25,8 @@ export default function Example() {
                 <a href="#">
                   <span className="sr-only">Workflow</span>
                   <img
-                    className="h-8 w-auto sm:h-10"
-                    src="https://tailwindui.com/img/logos/workflow-mark-red-500.svg"
+                    className="h-8 w-auto sm:h-50"
+                    src={Logo}
                     alt=""
                   />
                 </a>
@@ -69,12 +69,12 @@ export default function Example() {
           leaveTo="opacity-0 scale-95"
         >
           <Popover.Panel focus className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top md:hidden">
-            <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+            <div className="rounded-lg shadow-md bg-gray-900 ring-1 ring-black ring-opacity-5 overflow-hidden">
               <div className="px-5 pt-4 flex items-center justify-between">
                 <div>
                   <img
-                    className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-red-600.svg"
+                    className="h-18 w-auto"
+                    src={Logo}
                     alt=""
                   />
                 </div>
@@ -91,7 +91,7 @@ export default function Example() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
+                      className="block px-3 py-2 rounded-md text-base font-medium text-red-600 hover:bg-red-50"
                     >
                       {item.name}
                     </a>
@@ -125,16 +125,7 @@ export default function Example() {
             <div className="lg:grid lg:grid-cols-2 lg:gap-8">
               <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
                 <div className="lg:py-24">
-                  <a
-                    href="#"
-                    className="inline-flex items-center text-white bg-black rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200"
-                  >
-                    <span className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-red-500 rounded-full">
-                      We're hiring
-                    </span>
-                    <span className="ml-4 text-sm">Visit our careers page</span>
-                    <ChevronRightIcon className="ml-2 w-5 h-5 text-gray-500" aria-hidden="true" />
-                  </a>
+                 
                   <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
                     <span className="block">$ANTA INU</span>
                     <span className="block text-red-500">a utility based meme project</span>
