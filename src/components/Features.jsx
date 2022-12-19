@@ -10,12 +10,15 @@ import {
   
   // In this section we are going to create a list of features that we want to display on our page.
   const features = [
-    { name: 'Push to Deploy', icon: CloudUploadIcon, description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' },
+    { name: 'Website Development', icon: CloudUploadIcon, description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' },
     { name: 'KYC Verfification', icon: LockClosedIcon, description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' },
-    { name: 'Simple Queues', icon: RefreshIcon, description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' },
-    { name: 'Advanced Security', icon: ShieldCheckIcon, description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' },
-    { name: 'Powerful API', icon: CogIcon, description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' },
-    { name: 'Database Backups', icon: ServerIcon, description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' },
+    { name: 'Live Staking', icon: RefreshIcon, description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' },
+    { name: 'Fair launch Marketing', icon: ShieldCheckIcon, description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' },
+    { name: 'Poocoin marketing', icon: CogIcon, description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' },
+    { name: 'Partnerships', icon: ServerIcon, description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' },
+    { name: '10,000+ Holders', icon: ServerIcon, description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' },
+    { name: 'CMC Listing', icon: ServerIcon, description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' },
+    { name: 'Social Medias', icon: ServerIcon, description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' },
   ]
   
   export default function Example() {
@@ -23,7 +26,7 @@ import {
       <div className="relative bg-white py-16 sm:py-24 lg:py-32">
         <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
           <h2 className="text-3xl font-extrabold text-red-600 tracking-tight sm:text-4xl uppercase">Our Roadmap</h2>
-          <p className="mt-2  text-base font-semibold tracking-wider text-gray-900">
+          <p className="mt-2  text-base  tracking-wider text-gray-900">
           Santa Inu is also about driving quality crypto investment education and innovative ways we can promote safety and investment security through SAFU project.
           </p>
           <p className="mt-5 max-w-prose mx-auto text-2xl text-red-600">
