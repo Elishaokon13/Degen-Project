@@ -44,7 +44,7 @@ export default function Tokenomics() {
 
                 {item.stat}
 
-               {/* <span className="ml-2 text-sm font-medium text-gray-500">from {item.previousStat}</span> /*}
+               {/* <span className="ml-2 text-sm font-medium text-gray-500">from {item.previousStat}</span> */}
 
               </div>
 
