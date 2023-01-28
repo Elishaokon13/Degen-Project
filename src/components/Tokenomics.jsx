@@ -26,7 +26,7 @@ export default function Tokenomics() {
 
   return (
 
-    <div>
+    <div id="#Tokenomics">
 
       <h1 className="text-lg text-center justify-center leading-6 font-medium text-blue-700">Tokenomics</h1>
 
