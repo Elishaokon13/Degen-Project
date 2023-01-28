@@ -13,7 +13,7 @@ function App() {
         {/* <Navbar /> */}
         <Hero />
         <Features />
-        <Tokenomics/>
+        <Tokenomics />
         <Faq />
         <Footer />
     </div>
