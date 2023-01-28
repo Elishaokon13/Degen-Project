@@ -45,12 +45,12 @@ export default function Example() {
                 ))}
               </div>
             </div>
-            <div className="hidden md:flex md:items-center md:space-x-6">
+            {/* <div className="hidden md:flex md:items-center md:space-x-6">
               <a href="#" className="text-base font-medium text-white hover:text-blue-300">
                 Log in
               </a>
               
-            </div>
+            </div> */}
           </nav>
         </div>
 
@@ -92,14 +92,14 @@ export default function Example() {
                     </a>
                   ))}
                 </div>
-                <div className="mt-6 px-5">
+               {/* <div className="mt-6 px-5">
                   <a
                     href="#"
                     className="block text-center w-full py-3 px-4 rounded-md shadow bg-blue-700 text-white font-medium hover:bg-red-700"
                   >
                     Start free trial
                   </a>
-                </div>
+                </div> */}
                 
               </div>
             </div>
