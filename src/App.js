@@ -1,5 +1,5 @@
 import React from 'react'
-import About from './components/About';
+import FAQ from './components/faq';
 // import Developers from './components/Developers';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
@@ -13,9 +13,7 @@ function App() {
         {/* <Navbar /> */}
         <Hero />
         <Features />
-        <About />
-        {/* <Developers /> */}
-        {/* <Subscribe /> */}
+        <FAQ />
         <Footer />
     </div>
   );
