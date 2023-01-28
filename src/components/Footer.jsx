@@ -1,30 +1,20 @@
-preciousaffiah
-/
-Nirvana_Academy
-Private
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Nirvana_Academy/pages/components/Footer.js
-Nirvana_Academy/pages/components/Footer.js
-Latest commit
 
-preciousaffiah
-messed around with colours
-History
-126 lines (123 loc) · 8.8 KB
-Nirvana_Academy/pages/components/Footer.js
-Nirvana_Academy/pages/components/Footer.js
-File metadata and controls
 
-Code
 
-Blame
-export default function Example() {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const navigation = [
     {
         name: 'Facebook',
