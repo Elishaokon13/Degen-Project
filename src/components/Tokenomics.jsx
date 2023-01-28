@@ -22,7 +22,7 @@ function classNames(...classes) {
 
 }
 
-export default function Example() {
+export default function Tokenomics() {
 
   return (
 
