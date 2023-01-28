@@ -1,4 +1,4 @@
-import Background from '../assets/bg.jpg'
+import Xeus from '../assets/Xeus.jpg'
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
@@ -26,7 +26,7 @@ export default function Example() {
                   <span className="sr-only">Workflow</span>
                   <img
                     className="h-8 w-auto sm:h-50"
-                    src={Logo}
+                    src={Xeus}
                     alt=""
                   />
                 </a>
@@ -69,7 +69,7 @@ export default function Example() {
                 <div>
                   <img
                     className="h-18 w-auto"
-                    src={Logo}
+                    src={Xeus}
                     alt=""
                   />
                 </div>
@@ -115,27 +115,30 @@ export default function Example() {
                 <div className="lg:py-24">
                  
                   <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-                    <span className="block">$ANTA INU</span>
-                    <span className="block text-blue-700">a utility based meme project</span>
+                    <span className="block">X£U$ Token</span>
+                    <span className="block text-blue-700">a utility based Token</span>
                   </h1>
                   <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                  Santa INU is with the aim of providing an ecosystem of value to crypto holders. Helping those who lost negatively to the market due to the  negative turn around of Crypto events that occurred in the past months to recover investments with an Apy of 500% through structured  utilities and collaborations. Offering  investors value in rewards, earnings and incentives.
+                  A token built on the Binance smart chain, designed to celebrate a Living Legend in the DEFI world. A Defi tutor and a Financial Freedom advocate Who is Hell-bent on impacting knowledge on people because  "To Know is to be free"
+                  Making everyone believe in the possibility of Decentralized Finance and to give strength and courage to the holders of this token because "the only way is up".
+                  Creating an Innovation of a Decentralized Finance opportunities even in the bear making investors create "Wealth as vast as the Ocean"!!
+                  
                   </p>
                   <div className="mt-10 sm:mt-12">
                     
                   </div>
                 </div>
               </div>
-             {/* <div className="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
+             <div className="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
                 <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
-                  Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/
+                  
                   <img
                     className="w-full lg:absolute rounded-md lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                    src={Background}
+                    src={Xeus}
                     alt=""
                   />
                 </div>
-              </div> */ }
+              </div>
             </div>
           </div>
         </div>
