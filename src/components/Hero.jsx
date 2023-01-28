@@ -15,7 +15,7 @@ export default function Example() {
   return (
     <div className="relative overflow-hidden">
       <Popover as="header" className="relative">
-        <div className="bg-blue-700 pt-6">
+        <div className="bg-white pt-6">
           <nav
             className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
             aria-label="Global"
@@ -31,7 +31,7 @@ export default function Example() {
                   />
                 </a>
                 <div className="-mr-2 flex items-center md:hidden">
-                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
+                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-blue-700 hover:bg-blue-700 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
                     <span className="sr-only">Open main menu</span>
                     <MenuIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
@@ -74,7 +74,7 @@ export default function Example() {
                   />
                 </div>
                 <div className="-mr-2">
-                  <Popover.Button className="bg-blue rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-600">
+                  <Popover.Button className="bg-blue rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600">
                     <span className="sr-only">Close menu</span>
                     <XIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
@@ -95,7 +95,7 @@ export default function Example() {
                 <div className="mt-6 px-5">
                   <a
                     href="#"
-                    className="block text-center w-full py-3 px-4 rounded-md shadow bg-red-600 text-white font-medium hover:bg-red-700"
+                    className="block text-center w-full py-3 px-4 rounded-md shadow bg-blue-700 text-white font-medium hover:bg-red-700"
                   >
                     Start free trial
                   </a>
@@ -108,7 +108,7 @@ export default function Example() {
       </Popover>
 
       <main>
-        <div className="pt-10 bg-white sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
+        <div className="pt-10 bg-blue-100 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
           <div className="mx-auto max-w-7xl lg:px-8">
             <div className="lg:grid lg:grid-cols-2 lg:gap-8">
               <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
