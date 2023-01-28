@@ -9,7 +9,7 @@ import Features from './components/Features'
 
 function App() {
   return (
-    <div>
+    <div className='bg-blue-100'>
         {/* <Navbar /> */}
         <Hero />
         {/* <Features /> */}
