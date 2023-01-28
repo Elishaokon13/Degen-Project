@@ -66,13 +66,13 @@ export default function Example() {
           <Popover.Panel focus className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top md:hidden">
             <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
               <div className="px-5 pt-4 flex items-center justify-between">
-                <div>
+               {/* <div>
                   <img
                     className="h-18 w-auto"
                     src={Xeus}
                     alt=""
                   />
-                </div>
+                </div> */}
                 <div className="-mr-2">
                   <Popover.Button className="bg-blue rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600">
                     <span className="sr-only">Close menu</span>
@@ -118,9 +118,9 @@ export default function Example() {
                     <span className="block">X£U$ Token</span>
                     <span className="block text-blue-700">a utility based Token</span>
                   </h1>
-                  <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+                  <p className="mt-3 text-base text-blue-600 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                   A token built on the Binance smart chain, designed to celebrate a Living Legend in the DEFI world. A Defi tutor and a Financial Freedom advocate Who is Hell-bent on impacting knowledge on people because  "To Know is to be free"
-                  Making everyone believe in the possibility of Decentralized Finance and to give strength and courage to the holders of this token because "the only way is up".
+                 <br/> Making everyone believe in the possibility of Decentralized Finance and to give strength and courage to the holders of this token because "the only way is up".
                   Creating an Innovation of a Decentralized Finance opportunities even in the bear making investors create "Wealth as vast as the Ocean"!!
                   
                   </p>
