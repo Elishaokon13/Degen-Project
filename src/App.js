@@ -1,5 +1,5 @@
 import React from 'react'
-import FAQ from './components/faq';
+import Faq from './components/Faq';
 // import Developers from './components/Developers';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
@@ -13,7 +13,7 @@ function App() {
         {/* <Navbar /> */}
         <Hero />
         <Features />
-        <FAQ />
+        <Faq />
         <Footer />
     </div>
   );
