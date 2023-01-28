@@ -28,7 +28,7 @@ export default function Tokenomics() {
 
     <div>
 
-      <h1 className="text-lg leading-6 font-medium text-blue-700">TokenEconomics</h1>
+      <h1 className="text-lg text-center justify-center leading-6 font-medium text-blue-700">Tokenomics</h1>
 
       <dl className="mt-5 grid grid-cols-1 rounded-lg bg-white overflow-hidden shadow divide-y divide-gray-200 md:grid-cols-3 md:divide-y-0 md:divide-x">
 
