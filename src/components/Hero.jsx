@@ -108,17 +108,17 @@ export default function Example() {
       </Popover>
 
       <main>
-        <div className="pt-10 bg-blue-100 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
+        <div className="pt-10 bg-black text-[#91b738] sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
           <div className="mx-auto max-w-7xl lg:px-8">
             <div className="lg:grid lg:grid-cols-2 lg:gap-8">
               <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
                 <div className="lg:py-24">
                  
-                  <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
+                  <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-[#91b738] sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
                     <span className="block">X£U$ Token</span>
-                    <span className="block text-blue-700">a utility based Token</span>
+                    <span className="block text-[#91b738]">a utility based Token</span>
                   </h1>
-                  <p className="mt-3 text-base text-blue-600 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+                  <p className="mt-3 text-base text-[#91b738] sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                   A token built on the Binance smart chain, designed to celebrate a Living Legend in the DEFI world. A Defi tutor and a Financial Freedom advocate Who is Hell-bent on impacting knowledge on people because  "To Know is to be free"
                  <br/> Making everyone believe in the possibility of Decentralized Finance and to give strength and courage to the holders of this token because "the only way is up".
                   Creating an Innovation of a Decentralized Finance opportunities even in the bear making investors create "Wealth as vast as the Ocean"!!

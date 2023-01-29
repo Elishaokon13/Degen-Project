@@ -28,19 +28,19 @@ export default function Tokenomics() {
 
     <div id="Tokenomics">
 
-      <h1 className="text-lg text-center justify-center leading-6 font-medium text-blue-700">Tokenomics</h1>
+      <h1 className="text-4xl text-center justify-center leading-6 font-bold text-[#aacf51] mt-8">Tokenomics</h1>
 
-      <dl className="mt-5 grid grid-cols-1 rounded-lg bg-white overflow-hidden shadow divide-y divide-gray-200 md:grid-cols-3 md:divide-y-0 md:divide-x">
+      <dl className=" bg-black mt-5 grid grid-cols-1 rounded-lg bg-white overflow-hidden shadow divide-y divide-[#aacf51] md:grid-cols-3 md:divide-y-0 md:divide-x-2">
 
         {stats.map((item) => (
 
           <div key={item.name} className="px-4 py-5 sm:p-6">
 
-            <dt className="text-base font-normal text-gray-900">{item.name}</dt>
+            <dt className="text-base font-normal text-[#aacf51]">{item.name}</dt>
 
             <dd className="mt-1 flex justify-between items-baseline md:block lg:flex">
 
-              <div className="flex items-baseline text-2xl font-semibold text-blue-700">
+              <div className="flex items-baseline text-2xl font-semibold text-[#aacf51]">
 
                 {item.stat}
 
@@ -52,7 +52,7 @@ export default function Tokenomics() {
 
                 className={classNames(
 
-                  item.changeType === 'increase' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800',
+                  item.changeType === 'increase' ? 'bg-[#ddff8c] text-green-800' : 'bg-red-100 text-red-800',
 
                   'inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0'
 
