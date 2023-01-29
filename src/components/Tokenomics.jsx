@@ -30,7 +30,7 @@ export default function Tokenomics() {
 
       <h1 className="text-4xl text-center justify-center leading-6 font-bold text-[#aacf51] mt-8">Tokenomics</h1>
 
-      <dl className=" bg-black mt-5 grid grid-cols-1 rounded-lg bg-white overflow-hidden shadow divide-y divide-[#aacf51] md:grid-cols-3 md:divide-y-0 md:divide-x-2">
+      <dl className=" bg-black mt-5 grid grid-cols-1 rounded-lg bg-black overflow-hidden shadow divide-y divide-[#aacf51] md:grid-cols-3 md:divide-y-0 md:divide-x-2">
 
         {stats.map((item) => (
 
