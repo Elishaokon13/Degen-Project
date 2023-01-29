@@ -5,14 +5,14 @@ import Footer from './components/Footer';
 import Hero from './components/Hero';
 import CTA from './components/CTA';
 // import Subscribe from './components/Subscribe';
-import Features from './components/Features'
+// import Roadmap from './components/Features'
 
 function App() {
   return (
     <div className='bg-blue-100'>
         {/* <Navbar /> */}
         <Hero />
-        {/* <Features /> */}
+        {/* <Roadmap /> */}
     
         <Tokenomics />
         <CTA />
