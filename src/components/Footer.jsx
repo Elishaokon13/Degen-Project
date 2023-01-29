@@ -81,7 +81,7 @@ const navigation = [
 
 export default function Example() {
     return (
-        <div className="bg-black">
+        <div className="bg-[#7fa130]">
             {/* <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:py-16 lg:px-8">
                 <div className="py-10 px-6 bg-[indigo-700] rounded-3xl sm:py-16 sm:px-12 lg:p-20 lg:flex lg:items-center">
                     <div className="lg:w-0 lg:flex-1">
@@ -121,7 +121,7 @@ export default function Example() {
                     </div>
                 </div>
             </div> */}
-            <footer className="bg-blue-700 text-white">
+            <footer className="bg-[#7fa130] text-black">
                 <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
                     <div className="flex justify-center space-x-6 md:order-2">
                         {navigation.map((item) => (

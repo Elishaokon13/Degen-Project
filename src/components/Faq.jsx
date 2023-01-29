@@ -49,18 +49,18 @@ function classNames(...classes) {
 
 export default function Faq() {
   return (
-    <div className="bg-[#f0f8ff]" id="Faq">
+    <div className="bg-black" id="Faq">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto divide-y-2 divide-gray-200">
-          <h2 className="text-center text-3xl font-extrabold text-blue-700 sm:text-4xl">Frequently asked questions</h2>
-          <dl className="mt-6 space-y-6 divide-y divide-gray-200">
+        <div className="max-w-3xl mx-auto divide-y-2 divide-[#ddff8c]">
+          <h2 className="text-center text-3xl font-extrabold text-[#aacf51] sm:text-4xl">Frequently asked questions</h2>
+          <dl className="mt-6 space-y-6 divide-y divide-[#ddff8c]">
             {faqs.map((faq) => (
               <Disclosure as="div" key={faq.question} className="pt-6">
                 {({ open }) => (
                   <>
-                    <dt className="text-lg">
-                      <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
-                        <span className="font-medium text-blue-700">{faq.question}</span>
+                    <dt className="text-lg text-[#aacf51]">
+                      <Disclosure.Button className="text-left w-full flex justify-between items-start text-[#aacf51]">
+                        <span className="font-medium text-[#aacf51]">{faq.question}</span>
                         <span className="ml-6 h-7 flex items-center">
                           <ChevronDownIcon
                             className={classNames(open ? '-rotate-180' : 'rotate-0', 'h-6 w-6 transform')}
@@ -70,7 +70,7 @@ export default function Faq() {
                       </Disclosure.Button>
                     </dt>
                     <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                      <p className="text-base text-blue-700">{faq.answer}</p>
+                      <p className="text-base text-[#aacf51]">{faq.answer}</p>
                     </Disclosure.Panel>
                   </>
                 )}
