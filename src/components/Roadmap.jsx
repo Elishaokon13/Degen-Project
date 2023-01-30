@@ -26,7 +26,7 @@ import {
           Santa Inu is also about driving quality crypto investment education and innovative ways we can promote safety and investment security through SAFU project.
           </p> */}
           <p className="mt-5 max-w-prose mx-auto text-2xl text-[#91b738]">
-          Phase 1 - Q4, 2022.
+          Phase 1 - Q4, 2023.
           </p>
           <div className="mt-12">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
