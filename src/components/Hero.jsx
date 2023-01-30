@@ -1,4 +1,4 @@
-import Xeus from '../assets/Xeus.jpg'
+import Xeus from '../assets/hero.png'
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
@@ -15,7 +15,7 @@ export default function Example() {
   return (
     <div className="relative overflow-hidden">
       <Popover as="header" className="relative">
-        <div className="bg-white pt-6">
+        <div className="bg-black pt-6">
           <nav
             className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
             aria-label="Global"
@@ -39,7 +39,7 @@ export default function Example() {
               </div>
               <div className="hidden space-x-8 md:flex md:ml-10">
                 {navigation.map((item) => (
-                  <a key={item.name} href={item.href} className="text-base font-medium text-white hover:text-gray-300">
+                  <a key={item.name} href={item.href} className="text-base font-medium text-[#91b738] hover:text-[#ddff8c]">
                     {item.name}
                   </a>
                 ))}
@@ -86,7 +86,7 @@ export default function Example() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="block px-3 py-2 rounded-md text-base font-medium text-blue-700 hover:bg-red-50"
+                      className="block px-3 py-2 rounded-md text-base font-medium text-[#91b738] hover:bg-red-50"
                     >
                       {item.name}
                     </a>
