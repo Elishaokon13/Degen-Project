@@ -31,9 +31,9 @@ export default function Example() {
                   />
                 </a>
                 <div className="-mr-2 flex items-center md:hidden">
-                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-blue-700 hover:bg-blue-700 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
+                  <Popover.Button className="bg-black rounded-md p-2 inline-flex items-center justify-center text-[#91b738] focus:outline-none focus:ring-2 focus-ring-inset focus:ring-[#91b738]">
                     <span className="sr-only">Open main menu</span>
-                    <MenuIcon className="h-6 w-6" aria-hidden="true" />
+                    <MenuIcon className="w-10 h-12" aria-hidden="true" />
                   </Popover.Button>
                 </div>
               </div>
@@ -64,7 +64,7 @@ export default function Example() {
           leaveTo="opacity-0 scale-95"
         >
           <Popover.Panel focus className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top md:hidden">
-            <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+            <div className="rounded-lg shadow-md bg-black ring-1 ring-black ring-opacity-5 overflow-hidden">
               <div className="px-5 pt-4 flex items-center justify-between">
                {/* <div>
                   <img
@@ -74,7 +74,7 @@ export default function Example() {
                   />
                 </div> */}
                 <div className="-mr-2">
-                  <Popover.Button className="bg-blue rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-600">
+                  <Popover.Button className="bg-black rounded-md p-2 inline-flex items-center justify-center text-[#91b738] hover:bg-black-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#91b738]">
                     <span className="sr-only">Close menu</span>
                     <XIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
