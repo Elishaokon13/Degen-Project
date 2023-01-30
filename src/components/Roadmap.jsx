@@ -22,9 +22,9 @@ import {
       <div className="relative bg-black py-16 sm:py-24 lg:py-32">
         <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
           <h2 className="text-3xl font-extrabold text-[#91b738] tracking-tight sm:text-4xl uppercase">Our Roadmap</h2>
-          <p className="mt-2 text-base tracking-wider text-[#ddff8c]">
+         {/* <p className="mt-2 text-base tracking-wider text-[#ddff8c]">
           Santa Inu is also about driving quality crypto investment education and innovative ways we can promote safety and investment security through SAFU project.
-          </p>
+          </p> */}
           <p className="mt-5 max-w-prose mx-auto text-2xl text-[#91b738]">
           Phase 1 - Q4, 2022.
           </p>
