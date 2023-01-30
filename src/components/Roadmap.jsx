@@ -10,7 +10,7 @@ import {
   
   // In this section we are going to create a list of features that we want to display on our page.
   const features = [
-    { name: 'Project Development', icon: CloudUploadIcon, description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' },
+    { name: 'Project Development', icon: CloudUploadIcon, description: '' },
     { name: 'Marketing Strategy Planning', icon: LockClosedIcon, description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' },
     { name: 'Website Development and Launch', icon: RefreshIcon, description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' },
     { name: 'Community Building', icon: ShieldCheckIcon, description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.' },
@@ -40,9 +40,9 @@ import {
                         </span>
                       </div>
                       <h3 className="mt-8 text-lg font-medium text-gray-900 tracking-tight">{feature.name}</h3>
-                      <p className="mt-5 text-base text-gray-500">
+                      {/* <p className="mt-5 text-base text-gray-500">
                         {feature.description}
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
